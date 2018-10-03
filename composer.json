@@ -1,0 +1,23 @@
+{
+    "name": "gebruiker/foobarbazinga",
+    "description": "Opdracht les foo bar bazinga",
+    "type": "project",
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^5.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "koenroosa1",
+            "email": "k.roosa@student.alfa-college.nl"
+        }
+    ],
+     "autoload": {
+        "psr-4": {
+        "AlfaCollege\\": "src/"
+        }
+     }
+}
