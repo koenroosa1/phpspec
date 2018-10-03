@@ -5,7 +5,7 @@
     "require": {
         "php": ">=7.1"
     },
-    "require-dev": {
+        "require-dev": {
         "phpspec/phpspec": "^5.0"
     },
     "license": "MIT",
@@ -15,9 +15,9 @@
             "email": "k.roosa@student.alfa-college.nl"
         }
     ],
-     "autoload": {
+    "autoload": {
         "psr-4": {
         "AlfaCollege\\": "src/"
         }
-     }
+    }
 }
